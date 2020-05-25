@@ -8,4 +8,4 @@ if [ $? != 0 ]
 fi
 echo "Running.."
 echo ""
-kotlin ./dist/app.jar
+kotlin -classpath ./dist/app.jar AppKt
