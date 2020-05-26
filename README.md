@@ -7,8 +7,9 @@ Useful for when you're working on a small project that has no dependencies (asid
 
 Requires that you have the command-line kotlin compiler and runtime installed (and on the PATH, if you're on Windows)
 
+Below is how you can have a bit more control over the default functionality, it's not required reading.
 
-## `./run.sh` compilation
+### `./run.sh` compilation
 Compiled `.jar` will be `./dist/app.jar`.
 
 You can call `./run.sh` with just `c` as an argument like so `./run.sh c`, if you want to skip the running step, and just compile the code.
@@ -17,7 +18,7 @@ By default, `./run.sh` will create a hash of all your source files before compil
 
 If you want to force compilation and still run the code, you can call `./run.sh` with `cr`, like so `./run.sh cr`.
 
-## `./run.sh` running the .jar
+### `./run.sh` running the .jar
 It's assumed that the main function will be in `./src/app.kt`, for setting the -classpath argument as `AppKt` on the runtime. Feel free to change this as per your needs, though.
 
 You can call `./run.sh` with just `r` as an argument like so `./run.sh r`, if you want to skip the compilation step completely and just run whatever's been compiled.
