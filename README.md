@@ -1,7 +1,9 @@
 # kotlin-boilerplate
 Simple Kotlin hello world, and compile script that uses the command-line compiler.
 
-When run, `./run.sh` will search `./src` recursively for Kotlin files, compile them for the JVM, and then run the resulting `.jar` on the Kotlin runtime. Written and tested on git bash on Windows, so you may have to do `chmod +x ./run.sh` to get things working in a \*nix bash environment. Or maybe it just won't work at all. Who knows? Not me!
+When run, `./run.sh` will search `./src` recursively for Kotlin files, compile them for the JVM, and then run the resulting `.jar` on the Kotlin runtime. It also prints out a few messages so you know what it's doing.
+
+Written and tested on git bash on Windows, so you may have to do `chmod +x ./run.sh` to get things working in a \*nix bash environment. Or maybe it just won't work at all. Who knows? Not me!
 
 Useful for when you're working on a small project that has no dependencies (aside from the stdlib), and want a lighter pipeline. For anything more complicated, you probably want to look at using a build tool like Gradle, though.
 
