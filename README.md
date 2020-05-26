@@ -17,7 +17,7 @@ By default, `./run.sh` will create a hash of all your source files before compil
 
 If you want to force compilation and still run the code, you can call `./run.sh` with `cr`, like so `./run.sh cr`.
 
-## `./run.sh` running the app.jar
+## `./run.sh` running the .jar
 It's assumed that the main function will be in `./src/app.kt`, for setting the -classpath argument as `AppKt` on the runtime. Feel free to change this as per your needs, though.
 
 You can call `./run.sh` with just `r` as an argument like so `./run.sh r`, if you want to skip the compilation step completely and just run whatever's been compiled.
